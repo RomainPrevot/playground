@@ -1,0 +1,11 @@
+{
+  "name": "prepa-planning-poker",
+  "version": "0.0.1",
+  "description": "preparation for a potential planning poker",
+  "main": "main.js",
+  "author": "Romain Prevot",
+  "license": "MIT",
+  "dependencies": {
+    "mosca": "^2.8.0"
+  }
+}
