@@ -1,0 +1,20 @@
+{
+  "name": "prepa-planning-poker",
+  "version": "0.0.1",
+  "description": "preparation for a potential planning poker",
+  "main": "main.js",
+  "author": "Romain Prevot",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules main.js"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "mosca": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}

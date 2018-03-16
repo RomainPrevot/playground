@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h1>{{message}}</h1>
+    <h1>{{(myOtherMessage$ | async)?.payload.toString()}}</h1>
+
+    <button ion-button (click)="coucou()">Default</button>
+
+    <ion-list>
+        <button ion-item *ngFor="let client of clients">
+          {{ client }}
+        </button>  
+      </ion-list>
+</ion-content>
